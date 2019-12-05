@@ -1,5 +1,7 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import { Car } from "./Components/car.js";
+import { render } from "react-dom";
+import Routing from "./service/Routing";
 
-ReactDOM.render(<Car favcol="fire red" />, document.getElementById("root"));
+const App = <Routing />;
+
+render(App, document.getElementById("root"));
