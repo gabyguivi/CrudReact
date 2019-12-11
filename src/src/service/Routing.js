@@ -1,10 +1,10 @@
 import React from "react";
 import { Route, BrowserRouter, Switch } from "react-router-dom";
-import HomeContainer from "../component/Home/HomeContainer";
-import NotFoundComponent from "../component/Error/NotFoundComponent";
-import ParametroAplicacionContainer from "../component/Article/ArticleContainer";
-import Navbar from "../component/Navbar/Navbar";
-import InternalServerComponent from "../component/Error/InternalServerComponent";
+import HomeContainer from "../Components/Home/HomeContainer";
+import NotFoundComponent from "../Components/Error/NotFoundComponent";
+import ParametroAplicacionContainer from "../Components/Article/ArticleGrid";
+import Navbar from "../Components/Navbar/Navbar";
+import InternalServerComponent from "../Components/Error/InternalServerComponent";
 
 const Routing = () => (
   <BrowserRouter>

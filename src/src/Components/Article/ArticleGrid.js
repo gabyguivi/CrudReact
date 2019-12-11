@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ParametroAplicacionComponent from "./ParametroAplicacionComponent";
+import Article from "./Article";
 import API from "../../API/API";
 import CircularProgressComponent from "../Common/CircularProgressComponent";
 import { Redirect } from "react-router-dom";

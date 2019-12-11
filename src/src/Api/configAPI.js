@@ -1,3 +1,3 @@
-const configAPI = { baseURL: "http://localhost:41173/api" };
+const configAPI = { baseURL: "localhost:5000/api" };
 
 export default configAPI;
