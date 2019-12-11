@@ -36,7 +36,7 @@ const Navbar = () => {
     <div className={classes.root}>
       <AppBar position="fixed" style={styles.appBar}>
         <Toolbar>
-          {window.location.pathname == "/" ? null : (
+          {window.location.pathname === "/" ? null : (
             <IconButton
               edge="start"
               className={classes.menuButton}
@@ -49,12 +49,12 @@ const Navbar = () => {
           )}
           <Typography variant="h6" className={classes.title}>
             <Link className="brand-logo" to="/" style={styles.title}>
-              SMG ART App Back Office
+              Template Crud React
             </Link>
           </Typography>
         </Toolbar>
       </AppBar>
-      {window.location.pathname == "/" ? null : (
+      {window.location.pathname === "/" ? null : (
         <Drawer open={state.open} onClose={toggleDrawer(false)}>
           <div
             className={classes.list}

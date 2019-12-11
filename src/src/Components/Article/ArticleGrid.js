@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Article from "./Article";
-import API from "../../API/API";
+import API from "../../Api/API";
 import CircularProgressComponent from "../Common/CircularProgressComponent";
 import { Redirect } from "react-router-dom";
 import LinearProgressComponent from "../Common/LinearProgressComponent";

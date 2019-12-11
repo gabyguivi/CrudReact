@@ -22,21 +22,9 @@ const HomeGridComponent = () => {
             <Paper className={classes.paper} elevation={3}>
               <Typography variant="h5" gutterBottom>
                 <i className="material-icons" style={styles.icon}>
-                  build
+                  shopping_cart
                 </i>
-                Parametros Aplicación
-              </Typography>
-            </Paper>
-          </Link>
-        </Grid>
-        <Grid item xs={3}>
-          <Link to="/" style={styles.link}>
-            <Paper className={classes.paper} elevation={3}>
-              <Typography variant="h5" gutterBottom>
-                <i className="material-icons" style={styles.icon}>
-                  bar_chart
-                </i>
-                Encuestas
+                Artículos
               </Typography>
             </Paper>
           </Link>
